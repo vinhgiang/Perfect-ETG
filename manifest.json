@@ -1,0 +1,18 @@
+{
+  "name": "Perfect iGame",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Auto detect difference color",
+  "homepage_url": "https://facebook.com/kevenshop",
+  	"browser_action": {
+    	"default_icon": "images/search-icon.png",
+        "default_popup": "popup.html"
+  	},
+  	"author": "Vinh Giang",
+  	"automation": "giangcamvinh@gmail.com",
+	"permissions": [
+	 	"tabs",
+	 	"activeTab",
+	 	"http://wvw.igame.com/*"
+	]
+}
